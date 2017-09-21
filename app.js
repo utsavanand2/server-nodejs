@@ -6,7 +6,7 @@ let app = express()
 
 
 app.get('/hello', function(req, res){
-	res.status(200).send("Hello Utsav")
+	res.status(200).send("Hello World")
 })
 
 let port = process.env.port || 8080
