@@ -6,10 +6,10 @@ let app = express()
 
 
 app.get('/hello', function(req, res){
-	res.status(200).send("Hello World")
+	res.status(200).send("Hello World from newBranch")
 })
 
-let port = process.env.port || 8080
+let port = process.env.port || 80
 app.listen(port, function(){
 	console.log('App listening on port %s', port)
 	console.log('Press Ctrl+C to quit.')
