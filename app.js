@@ -9,7 +9,7 @@ app.get('/hello', function(req, res){
 	res.status(200).send("Hello from new world!")
 })
 
-let port = process.env.port || 8080
+let port = process.env.port || 80
 app.listen(port, function(){
 	console.log('App listening on port %s', port)
 	console.log('Press Ctrl+C to quit.')
