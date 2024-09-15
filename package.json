@@ -19,7 +19,7 @@
   "author": "Kumar Utsav Anand",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.1",
-    "express": "^4.15.4"
+    "body-parser": "^1.20.3",
+    "express": "^4.20.0"
   }
 }
